@@ -30,7 +30,6 @@ export default function AuthenticatedLayout({ header, children }) {
                                 >
                                     Dashboard
                                 </NavLink>
-                                You
                                 {/* nav Link to houses */}
                                 <NavLink
                                     href={route('houses.index')}
